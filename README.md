@@ -2,8 +2,6 @@
 
 Bin packing algorithm (https://en.wikipedia.org/wiki/Bin_packing_problem)
 
-Default (and currently only algorithm) is first-fit (FFD).
-
 ## Usage
 
 ```
