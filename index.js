@@ -4,7 +4,7 @@ Array.prototype.pack = function (binMaxSize, sizeFunction) {
   sizeFunction = sizeFunction || (el => el);
 
   const original = this.map(el => [el, sizeFunction(el)]).sort((a, b) => a[1] - b[1]);
-  if (!binMaxSize || binMaxSize < 0) binMaxSize = original.length ? original[0][1] : 0;
+  if (!binMaxSize || binMaxSize < 0) binMaxSize = original.length ? original[original.length - 1][1] : 0;
 
   const bins = [];
   while (original.length) {
