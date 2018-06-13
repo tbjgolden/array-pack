@@ -1,6 +1,6 @@
 {
   "name": "array-prototype-pack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array.prototype.pack (non-standard bin packing algorithm)",
   "main": "index.js",
   "repository": {
