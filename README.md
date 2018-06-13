@@ -4,7 +4,7 @@ Bin packing algorithm (https://en.wikipedia.org/wiki/Bin_packing_problem)
 
 ## Usage
 
-```
+```javascript
 var blocks = [
   { text: 'Rolly', height: 50 },
   { text: 'Golly', height: 40 },
@@ -18,7 +18,7 @@ const columns = blocks.pack(100, block => block.height, 'FFD');
 console.log(columns);
 ```
 
-```
+```javascript
 // example output:
 [
   [
@@ -78,7 +78,7 @@ This means:
 
 Example:
 
-```
+```javascript
 const original = [{ weight: 10 }, { weight: 5 }];
 const result = original.pack(null, obj => obj.weight);
 console.log(result); // [[{ weight: 10 }], [{ weight: 5 }]]
@@ -91,5 +91,5 @@ console.log(result); // [[{ weight: 11 }], [{ weight: 5 }]]
 
 ## Notes
 
-For items with a size larger than the specified 'Bin max size',
+For items with a size larger than the specified 'Bin Max Size',
 they will be placed in their own bin.
