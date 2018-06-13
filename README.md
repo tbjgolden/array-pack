@@ -2,9 +2,20 @@
 
 Bin packing algorithm (https://en.wikipedia.org/wiki/Bin_packing_problem)
 
+
 ## Usage
 
+### Install
+
+```
+npm install array-prototype-pack
+```
+
+### Example
+
 ```javascript
+require('array-prototype-pack');
+
 var blocks = [
   { text: 'Rolly', height: 50 },
   { text: 'Golly', height: 40 },
