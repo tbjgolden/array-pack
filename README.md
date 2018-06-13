@@ -44,7 +44,7 @@ Max size of any bin. If negative or falsy, it will use the default.
 
 Default: Will use the largest size in the array.
 
-### Size function
+### Size Function
 
 Function that gets the size from an object.
 
@@ -93,3 +93,5 @@ console.log(result); // [[{ weight: 11 }], [{ weight: 5 }]]
 
 For items with a size larger than the specified 'Bin Max Size',
 they will be placed in their own bin.
+
+As FFD uses Array.sort, the result is not necessarily stable when sizes are not unique. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)

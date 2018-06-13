@@ -1,0 +1,24 @@
+{
+  "name": "array-prototype-pack",
+  "version": "1.0.0",
+  "description": "Array.prototype.pack (non-standard bin packing algorithm)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbjgolden/array-prototype-pack.git"
+  },
+  "keywords": [
+    "bin",
+    "pack",
+    "packing",
+    "array",
+    "prototype",
+    "algorithm"
+  ],
+  "author": "Tom Golden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tbjgolden/array-prototype-pack/issues"
+  },
+  "homepage": "https://github.com/tbjgolden/array-prototype-pack#readme"
+}
